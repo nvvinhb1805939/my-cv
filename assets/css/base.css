@@ -1,0 +1,51 @@
+:root {
+    --main-clr: #009688;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* main common */
+.main i {
+    color: var(--main-clr);
+    margin-right: 16px;
+}
+
+.main__introduce i {
+    font-size: 1.8rem;
+}
+
+.main__box-shadow {
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.main__separate {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #fff;
+}
+
+.main__introduce-show {
+    background: #f1f1f1;
+    border-radius: 16px;
+}
+
+.main__introduce-progress {
+    background: var(--main-clr);
+    color: #fff;
+    text-align: center;
+    border-radius: 16px;
+}

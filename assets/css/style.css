@@ -1,0 +1,149 @@
+/* main css */
+.main {
+    background: linear-gradient(45deg, #ffcccc, #ccffff);
+    padding-top: 16px;
+}
+
+.main__introduce {
+    color: #757575;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.main__introduce-img {
+    padding-top: 66.6%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-top-left-radius: 8px;
+}
+
+.main__introduce-name {
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 400;
+    color: #000;
+    margin: 10px 0;
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+}
+
+.main__introduce-info {
+    padding: 0 16px;
+}
+   
+.main__introduce-info-list {
+    margin: 0;
+    list-style: none;
+    padding-left: 0;
+}
+
+.main__introduce-info-item {
+    font-size: 1.5rem;
+    margin: 15px 0;
+}
+
+.main__introduce-head {
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    margin: 18px 0;
+}
+
+.main__introduce-text {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin: 15px 0;
+}
+
+.main__introduce-skills-show {
+    line-height: 1.8rem;
+}
+
+.main__introduce-skills-progress {
+    font-size: 1.3rem;
+}
+
+.main__introduce-languages-show {
+    height: 2.4rem;
+}
+
+.main__introduce-languages-progress {
+    height: 2.4rem;
+}
+
+/* right col css */
+
+.main__content-wrapper {
+    padding: 32px 32px 0;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.main__content-head {
+    font-size: 3rem;
+    font-weight: 400;
+    color: #757575;
+    margin: 0 0 24px;
+}
+
+.main__content-title {
+    font-size: 1.8rem;
+    color: #000;
+    opacity: 0.6;
+    margin: 0;
+    padding: 16px 0;
+}
+
+.main__content-period {
+    display: inline-block;
+    font-size: 1.6rem;
+    color: var(--main-clr);
+    padding: 8px 0;
+}
+
+.main__content-period--current::after {
+    content: "Current";
+    color: #fff;
+    background: var(--main-clr);
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.main__content-desc {
+    font-size: 1.5rem;
+    line-height: 2rem;
+
+}
+
+
+/* footer css */
+.footer {
+    background: var(--main-clr);
+    text-align: center;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.footer__paragraph {
+    margin: 0;
+    padding: 20px 0;
+}
+
+.footer__social-media-link {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 4px 8px;
+}
+
+.footer__social-media-link:hover {
+    opacity: 0.6;
+}
+
+.footer__paragraph-link {
+    color: #fff;
+}
+
